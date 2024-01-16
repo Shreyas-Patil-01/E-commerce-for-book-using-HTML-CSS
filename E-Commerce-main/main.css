@@ -1,0 +1,195 @@
+/* header */
+#header{
+    background: url(books_home_pic.avif) top/cover no-repeat;
+}
+
+.carousel-inner h1{
+    font-size: 60px;
+    font-family: var(--lg-font);
+}
+.carousel-item .btn{
+    border-color: #131212!important;
+    background-color: rgb(243, 243, 237);
+    border-radius: 30px;
+}
+.carousel-item .btn:hover{
+    border-color: var(--red)!important;
+}
+/* title */
+.title h2::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: var(--red);
+    left: -20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+.fbutton .btn:hover{
+    border-color: var(--pink)!important;
+    background-color: rgb(221, 214, 214)
+}
+.fbutton .active{
+    background-color: var(--pink)!important;
+}
+#about{
+    background-color: rgba(179, 179, 179, 0.05);
+}
+/* cart */
+
+#cart-bottom .coupon>div,#cart-bottom .total>div{
+    border: 1px solid gray;
+}
+#cart-bottom .coupon h5,#cart-bottom .total h5{
+    background: rgb(183, 84, 84);
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    font-weight: 700;
+}
+#cart-bottom .coupon p,#cart-bottom .coupon input{
+    padding: 0 12px;
+}
+#cart-bottom .coupon input{
+    height: 44px;
+}
+#cart-bottom .coupon input{
+    margin: 0 0 20px 12px;
+}
+#cart-bottom .coupon button{
+    background: #131212;
+    color: white;
+    height: 44px;
+    font-weight: 500;
+    margin-left: 12px;
+    margin-bottom: 3px;
+}
+#cart-bottom .total div>div{
+    padding: 0 12px;
+}
+#cart-bottom .total p{
+ color: rgb(47, 49, 49);
+}
+#cart-bottom .total button{
+    background: #131212;
+    color: white;
+    height: 44px;
+    font-weight: 500;
+    margin-left: 12px;
+    margin-bottom: 3px;
+}
+/* news */
+#newsletter{
+    background-color: rgba(179, 179, 179, 0.05);
+}
+#newsletter p{
+    max-width: 600px;
+}
+#newsletter .input-group{
+    max-width: 500px;
+}
+#newsletter .form-control{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+#newsletter .btn{
+    background-color: var(--pink);
+    color: #fff;
+    border-color: var(--pink);
+}
+#newsletter .btn:hover{
+    background-color: #000;
+    border-color: #000;
+}
+
+/* login */
+.wrapper{
+    width: 420px;
+    background:whitesmoke;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    color: rgb(17, 16, 16);
+    padding: 30px 40px;
+    margin-top: 20px;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #100f0f;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: #000000;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+.wrapper .remeber-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remeber-forgot label input{
+    accent-color: #000000;
+    margin-right: 5px;
+}
+.remeber-forgot a{
+    color: #000000;
+    text-decoration: none;
+}
+.remeber-forgot a:hover{
+    text-decoration: underline;
+}
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background-color: #000000;
+    border: none;
+    outline: none;
+    border-radius: 45px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+
+}
+.register-link p a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.col-sm-6
+{
+    color: #000;
+}

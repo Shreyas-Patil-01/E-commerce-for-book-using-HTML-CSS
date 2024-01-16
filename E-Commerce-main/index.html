@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Frenzy</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class = "navbar navbar-expand-lg navbar-light bg-secondary text-dark py-4 fixed-top">
+        <div class="container">
+            <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
+                <i class='bx bxs-shopping-bag' style="font-size: 25px;"></i>
+                <span class = "text-uppercase fw-lighter ms-2">KLE</span>
+            </a>
+            
+            <button class="navbar-toggler border-0 position-relative" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class = "navbar-nav mx-auto text-center">
+                    <li class = "nav-item px-4 pb-2 pt-0">
+                        <a class = "nav-link text-uppercase font-weight-bold" href = "index.html" style="font-size: 25px; color: black;">Home</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark" href = "#collect">collection</a>
+                    </li>
+        
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark" href = "#about">about</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2 border-0">
+                        <a class = "nav-link text-uppercase text-dark" href = "#popular">popular books</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <div >
+                            <a class="nav-link btn btn-secondary dropdown-toggle bg-secondary border-0 text-dark text-uppercase" href="#"
+                                role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                               Book categories
+                            </a>
+                        </div>
+                    </li>
+
+                </ul>
+              </div>
+        </div>
+    </nav>
+    <header id = "header" class = "vh-100 carousel slide" data-ride = "carousel" style = "padding-top: 104px;">
+        <div class = "container h-100 d-flex align-items-center carousel-inner">
+            <div class = "text-center carousel-item active">
+                <h2 class = "text-capitalize text-white">best collection of books</h2>
+                <h1 class = "text-uppercase py-2 fw-bold text-white">new Books</h1>
+                <a href = "#" class = "btn mt-3 text-uppercase px-3">shop now</a>
+            </div>
+        </div>
+
+    </header>
+    <section id="collect">
+        <div class="container">
+            <div class = "title text-center py-5">
+                <h2 class = "position-relative d-inline-block">Collections</h2><br>
+            </div>
+            <div id="layout" class="carousel slide" data-ride = "carousel">
+                <div class = "h-100 d-flex align-items-center carousel-inner">
+                    <div class = "text-center carousel-item active">
+                        <div class="row">
+                            <div class="col-sm-4 ">
+                                <div class="single-box text-center">
+                                    <div class="img-area">
+                                    <img alt="" class="img-fluid " src="A suitable boy.webp">
+                                    </div>
+                                    <div class="modal fade" id="myModal">
+                                        <div class="modal-dialog">
+                                          <div class="modal-content">
+                                    
+                                            <div class="modal-header">
+                                            <h4 class="modal-title">A Suitable Boy</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                    
+                                            <div class="modal-body">
+                                                <img alt="" class="img-fluid " src="swami vivekananda biography.jpg">
+                                               
+                                            </div>
+                                            
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="info-area">
+                                        <h4 class="pt-3"><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i></h4>
+                                        <p>A Suitable Boy</p>
+                                        <p><b>₹1044</b></p>
+                                        <button class="btn bg-warning border-dark mb-3" data-toggle="modal" data-target="#myModal">View</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="single-box text-center">
+                                    <div class="img-area"><img alt="" class="img-fluid " src="India after gandhi 2.jpg"></div>
+                                    <div class="info-area">
+                                        <h4 class="pt-3"><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i></h4>
+                                        <p>India After Gandhi</p>
+                                        <p><b>₹800</b></p>
+                                        <button class="btn bg-warning border-dark mb-3" data-toggle="modal" data-target="#myModal1">View</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="single-box text-center">
+                                    <div class="img-area"><img alt="" class="img-fluid " src="swami vivekananda biography.jpg"></div>
+                                    <div class="info-area">
+                                        <h4 class="pt-3"><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i></h4>
+                                        <p>Swami Vivekananda</p>
+                                        <p><b>₹1500</b></p>
+                                        <button class="btn bg-warning border-dark mb-3" data-toggle="modal" data-target="#myModal2">View</button>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+    </section>
+    <div class="container-fluid pt-5 px-0">
+        <img src="ad_photo1.jpg"  width="100%">
+    </div>
+    <section id="best">
+        <div class="container py-5">
+          <div class = "title text-center pb-5 ">
+            <h2 class = "position-relative d-inline-block">Best Sellers</h2><br>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="single-box text-center ">
+                <div class="img-area"><img alt="" class="img-fluid " src="sachin@50.jpg" style="height: 300px;"></div>
+                <div class="info-area">
+                  <h4 class="pt-3"><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i></h4>
+                  <p>Sachine@50</p>
+                  <p><b>₹600</b></p>
+                  <button class="btn bg-warning border-dark mb-3" data-toggle="modal" data-target="#bestModal1">View</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="single-box text-center ">
+                <div class="img-area"><img alt="" class="img-fluid " src="the-great-indian-novel-.avif" style="height: 300px;"></div>
+                <div class="info-area">
+                  <h4 class="pt-3"><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i></h4>
+                  <p>The-great-indian-novel</p>
+                  <p><b>₹2000</b></p>
+                  <button class="btn bg-warning border-dark mb-3" data-toggle="modal" data-target="#bestModal2">View</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="single-box text-center ">
+                <div class="img-area"><img alt="" class="img-fluid " src="rich dad poor dad.jpeg" style="height: 300px;"></div>
+                <div class="info-area">
+                  <h4 class="pt-3"><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i></h4>
+                  <p>Rich dad Poor dad</p>
+                  <p><b>₹1044</b></p>
+                  <button class="btn bg-warning border-dark mb-3" data-toggle="modal" data-target="#bestModal3">View</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="single-box text-center ">
+                <div class="img-area"><img alt="" class="img-fluid " src="Bhagvat-Gita.jpg" style="height: 300px;"></div>
+                <div class="info-area">
+                  <h4 class="pt-3"><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i></h4>
+                  <p>Bhagvat Gita</p>
+                  <p><b>₹400</b></p>
+                  <button class="btn bg-warning border-dark mb-3" data-toggle="modal" data-target="#bestModal4">View</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- end modals -->
+    <section id = "popular">
+        <div class = "container">
+            <div class = "title text-center pt-3 pb-5">
+                <h2 class = "position-relative d-inline-block ms-4">Popular Of This Year</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3 class = "fs-5">Top Rated</h3>
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src = "the-krishna-key-03.webp" alt = "" class = "img-fluid pe-3 w-25 mb-2">
+                        <div class="pt-4 pl-2">
+                            <p class = "mb-0 ml-1">The Krishna Key</p>
+                            <span>₹500</span>
+                        </div>
+                    </div>
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src = "HTML CSS 4.jpg" alt = "" class = "img-fluid pe-3 w-25 mb-2">
+                        <div class="pt-4 pl-2">
+                            <p class = "mb-0">HTML CSS</p>
+                            <span>₹850</span>
+                        </div>
+                    </div>
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src = "javascript 5.jpg" alt = "" class = "img-fluid pe-3 w-25 mb-2">
+                        <div class="pt-4 pl-2">
+                            <p class = "mb-0">Javascript</p>
+                            <span>₹1200</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <h3 class = "fs-5">Best Selling</h3>
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src = "isro 6.jpg" alt = "" class = "img-fluid pe-3 w-25 mb-2">
+                        <div class="pt-4 pl-2">
+                            <p class = "mb-0">ISRO</p>
+                            <span>₹300</span>
+                        </div>
+                    </div>
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src = "Mrutyunjay 7.jpg" alt = "" class = "img-fluid pe-3 w-25 mb-2">
+                        <div class="pt-4 pl-2">
+                            <p class = "mb-0">Mrutyunjay</p>
+                            <span>₹ 950</span>
+                        </div>
+                    </div>
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src = "Karanth Trilogy 8.jpg" alt = "" class = "img-fluid pe-3 w-25 mb-2">
+                        <div class="pt-4 pl-2">
+                            <p class = "mb-0">Karanth Trilogy</p>
+                            <span>₹250</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <h3 class = "fs-5">On Sale</h3>
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src = "death 12.webp" alt = "" class = "img-fluid pe-3 w-25 mb-2">
+                        <div class="pt-4 pl-2">
+                            <p class = "mb-0">Death</p>
+                            <span>₹500</span>
+                        </div>
+                    </div>
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src = "made in india11.jpg" alt = "" class = "img-fluid pe-3 w-25 mb-2">
+                        <div class="pt-4 pl-2">
+                            <p class = "mb-0">Made In India</p>
+                            <span>₹500</span>
+                        </div>
+                    </div>
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src = "the inteligent investor.jpg" alt = "" class = "img-fluid pe-3 w-25 mb-2">
+                        <div class="pt-4 pl-2">
+                            <p class = "mb-0">The Intelligent Investor</p>
+                            <span>₹500</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-2">
+        <div class="container pt-4">
+            <div class = "title text-center pb-5">
+                <h2 class = "position-relative d-inline-block ms-4">About Us</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src="about_us_girls.jpg" alt="about" width="100%" >
+    
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="justify-content-center pt-5">
+                        <ol>
+                            <b>
+                                <ul>Vedanti Patil  -02FE23BCA124</ul><br>
+                                <ul>Swati Jadhav  -02FE23BCA124</ul><br>
+                                <ul>Anjali Belgavkar -02FE23BCA124</ul>
+                            </b>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="container-fluid mt-5" style="background-color: beige;">
+            <footer class="py-3 my-3">
+              <div class="border-bottom">
+                <p><b><center>End of the page.</center></b></p>
+                <p><b><center>Thank You!!</center></b></p>
+              </div>
+             
+            </footer>
+          </div>  
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    
+</body>
+</html>
